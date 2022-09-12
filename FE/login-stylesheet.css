@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: #22212C;
+}
+.container-left {
+  position: absolute;
+  width: 541px;
+  height: 540px;
+  left: 127px;
+  top: 47px;
+  
+  background: #C5DFF1;
+  border-radius: 30px 0px 0px 30px;
+}
+.container-right {
+  position: absolute;
+  width: 566px;
+  height: 540px;
+  left: 668px;
+  top: 47px;
+
+  background: #FFFFFF;
+  border-radius: 0px 30px 30px 0px;
+}
+.logo{
+  position: absolute;
+  width: 292px;
+  height: 271px;
+  left: 120px;
+  top: 130px;
+}
+h1{
+  text-align:center;
+  font-size: 26px;
+  font-style:normal;
+  font-family: 'Roboto';
+  padding-top: 10px;
+}
+.desc{
+  position: absolute;
+  width: 300px;
+  height: 38px;
+  left: 125px;
+  top: 440px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.email{
+  position: absolute;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 5px;
+
+  font-family:'Roboto';
+  font-style:normal;
+  font-size: 16px;
+}
+.user-email{
+  position: absolute;
+  width: 369px;
+  height: 35px;
+  left: 770px;
+  top: 176px;
+  border: none;
+	border-radius: 5px;
+  background: #E5EAED;
+}
+.password{
+  position: absolute;
+  text-align: left;
+  padding-left: 770px;
+  padding-top: 240px;
+
+  font-family:'Roboto';
+  font-style:normal;
+  font-size: 16px;
+}
+.user-password{
+  position: absolute;
+  width: 369px;
+  height: 35px;
+  left: 770px;
+  top: 270px;
+  border: none;
+	border-radius: 5px;
+  background: #E5EAED;
+}
+.signin-button{
+  position: absolute;
+  width: 369px;
+  height: 40.43px;
+  left: 770px;
+  top: 470px;
+  border: none;
+	cursor: pointer;
+  background: #359FE7;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.signin-button:hover{
+  background : #2D84BF;
+}
+.signin-button:focus{
+  outline: none;
+}
+.account{
+  position: absolute;
+  width: 143px;
+  height: 19px;
+  left: 860px;
+  top: 530px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+}
+.sign-up{
+  position: absolute;
+  left: 1010px;
+  top: 530px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+}
