@@ -1,0 +1,167 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+    background-color: #22212C;
+}
+.container-left {
+  position: absolute;
+  width: 541px;
+  height: 540px;
+  left: 127px;
+  top: 47px;
+  
+  background: #C5DFF1;
+  border-radius: 30px 0px 0px 30px;
+}
+.container-right {
+  position: absolute;
+  width: 566px;
+  height: 540px;
+  left: 668px;
+  top: 47px;
+
+  background: #FFFFFF;
+  border-radius: 0px 30px 30px 0px;
+}
+.logo{
+  position: absolute;
+  width: 292px;
+  height: 271px;
+  left: 120px;
+  top: 130px;
+}
+h1{
+  text-align:center;
+  font-size: 26px;
+  font-style:normal;
+  font-family: 'Roboto';
+  padding-top: 5px;
+}
+.desc{
+  position: absolute;
+  width: 300px;
+  height: 38px;
+  left: 125px;
+  top: 440px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+}
+.name{
+  position: absolute;
+  left: 100px;
+  top: 75px;
+  font-family:'Roboto';
+  font-style:normal;
+  font-size: 16px;
+}
+.user-name{
+  position: absolute;
+  width: 369px;
+  height: 35px;
+  left: 100px;
+  top: 100px;
+  border: none;
+	border-radius: 5px;
+  background: #E5EAED;
+}
+.email{
+  position: absolute;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 60px;
+
+  font-family:'Roboto';
+  font-style:normal;
+  font-size: 16px;
+}
+.user-email{
+  position: absolute;
+  width: 369px;
+  height: 35px;
+  left: 100px;
+  top: 175px;
+  border: none;
+	border-radius: 5px;
+  background: #E5EAED;
+}
+.password{
+  position: absolute;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 137px;
+  font-family:'Roboto';
+  font-style:normal;
+  font-size: 16px;
+}
+.user-password{
+  position: absolute;
+  width: 369px;
+  height: 35px;
+  left: 100px;
+  top: 250px;
+  border: none;
+	border-radius: 5px;
+  background: #E5EAED;
+}
+.con-password{
+  position: absolute;
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 213px;
+  font-family:'Roboto';
+  font-style:normal;
+  font-size: 16px;
+}
+.user-con-password{
+  position: absolute;
+  width: 369px;
+  height: 35px;
+  left: 100px;
+  top: 328px;
+  border: none;
+	border-radius: 5px;
+  background: #E5EAED;
+}
+.signup-button{
+  position: absolute;
+  width: 369px;
+  height: 40.43px;
+  left: 100px;
+  top: 420px;
+  border: none;
+	cursor: pointer;
+  background: #359FE7;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  font-family: Roboto;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: #FFFFFF;
+}
+.signup-button:hover{
+  background : #2D84BF;
+}
+.signup-button:focus{
+  outline: none;
+}
+.account{
+  position: absolute;
+  width: 180px;
+  height: 19px;
+  left: 180px;
+  top: 490px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+}
+.sign-in{
+  position: absolute;
+  left: 347px;
+  top: 490px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 16px;
+}
